@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import { createStore } from "redux";
 import todoApp from "./reducers";
 import App from "./App";
+import "bootstrap/dist/css/bootstrap.css";
 
 const store = createStore(todoApp);
 
